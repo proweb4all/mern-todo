@@ -12,7 +12,7 @@ const AuthPage = () => {
   const {login} = useContext(AuthContext)
   const changeHandler = (e) => {
     setForm({...form, [e.target.name]: e.target.value})
-    console.log(`${e.target.name}: ${e.target.value}`)
+    // console.log(`${e.target.name}: ${e.target.value}`)
   }
   const registerHandler = async () => {
     try {
